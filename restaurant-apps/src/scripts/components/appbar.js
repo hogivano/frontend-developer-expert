@@ -39,7 +39,7 @@ class Appbar extends HTMLElement {
                 .navbar .navbar-menu a {
                     color: #f0735d;
                     height: 100%;
-                    padding: 10px;
+                    padding: 15px 10px;
                     text-decoration: none;
                 }
 

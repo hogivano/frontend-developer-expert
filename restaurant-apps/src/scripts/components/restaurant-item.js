@@ -12,9 +12,9 @@ class RestaurantItem extends HTMLElement {
         <article class="col">
             <div class="card">
                 <div class="card-img">
-                    <img src="${this._restaurant.pictureId}" class="w-100" alt="gambar restorant ${this._restaurant.name}">
+                    <img src="${this._restaurant.pictureId}" class="w-100" alt="restaurant ${this._restaurant.name}">
                     <div class="bottom-corner">
-                        <span>${this._restaurant.city}</span>
+                        <span>${this._restaurant.ecity}</span>
                     </div>
                 </div>
                 <div class="card-body">
